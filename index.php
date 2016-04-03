@@ -27,7 +27,7 @@
 	// How to use antirfi
 		if (isset($_GET['site'])) {
 			$site = antirfi($_GET['site']);
-			echo $site;
+			echo antixss($site);
 		}
 	
 
